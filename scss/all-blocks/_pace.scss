@@ -1,0 +1,119 @@
+.pace{
+    padding: 25px 0 45px;
+
+    .pace__container{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: white;
+    }
+}
+
+
+.pace__left{
+
+    padding: 20px 30px;
+    width: 370px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .pace__left-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 19px;
+        color: black;
+        opacity: 0.6;
+    }
+}
+
+.sitenav__list{
+
+    display:flex;
+    justify-content: end;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    list-style: none;
+
+    .sitenav__item + .sitenav__item{
+        margin-left: 30px;
+    }
+
+    .sitenav__link{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: dimgray;
+    }
+
+    .sitenav__link:hover{
+        color: black;
+    }
+}
+
+
+.pace__rihgt{
+    padding: 20px 15px 0;
+    width: 650px;
+}
+
+.right__bot{
+    margin:  0 auto;
+    width: 475px;
+    margin-bottom: 30px;
+
+    .right__heding{
+        margin: 0 0 30px;
+        display: inline-block;
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .heading__devi{
+        display: inline-block;
+        width: 100px;
+        height: 3px;
+        background-color: black;
+        margin-bottom: 10px;
+    }
+
+    .right__desc{
+        margin: 0 0 30px;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 0.8;
+    }
+}
+
+.right__bot-bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .iframe{
+        border: 0;
+        margin-bottom: 15px;
+    }
+
+    .right__bot-right-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: black;
+        opacity: 0.8;
+    }
+
+    .right__bot-left-desc{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 25px;
+        width: 200px;
+
+    }
+}
